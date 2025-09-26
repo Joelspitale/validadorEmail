@@ -7,21 +7,21 @@ La idea es tomar un archivo con miles (o millones) de correos y generar un nuevo
 
 2. Para cada correo, revisa:
 
-✅ Si el formato es correcto (ejemplo: usuario@dominio.com).
-
-📮 Si el dominio tiene servidores de correo válidos (registros MX).
-
-🗑️ Si pertenece a un dominio desechable (correos temporales como 10minutemail.com).
-
-🛡️ Si el dominio tiene buena reputación (no está marcado como malware o phishing).
-
-🌍 Si el TLD (ejemplo: .com, .org) es válido según la lista oficial de internet.
-
-⭐ Si es un proveedor conocido (ejemplo: Gmail, Yahoo, Outlook).
-
-⚠️ Si la parte antes del @ parece sospechosa (test, noreply, asdf, etc.).
-
-🔀 Si el nombre local es demasiado aleatorio (se mide con entropía).
+    ✅ Si el formato es correcto (ejemplo: usuario@dominio.com).
+    
+    📮 Si el dominio tiene servidores de correo válidos (registros MX).
+    
+    🗑️ Si pertenece a un dominio desechable (correos temporales como 10minutemail.com).
+    
+    🛡️ Si el dominio tiene buena reputación (no está marcado como malware o phishing).
+    
+    🌍 Si el TLD (ejemplo: .com, .org) es válido según la lista oficial de internet.
+    
+    ⭐ Si es un proveedor conocido (ejemplo: Gmail, Yahoo, Outlook).
+    
+    ⚠️ Si la parte antes del @ parece sospechosa (test, noreply, asdf, etc.).
+    
+    🔀 Si el nombre local es demasiado aleatorio (se mide con entropía).
 
 3. Calcula un puntaje de calidad para cada correo (0 a 100).
 
